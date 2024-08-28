@@ -9,7 +9,7 @@ function App() {
       <TopNavbar />
       <SideNavbar />
       <div className="content">
-        <h1> lleumeria </h1>
+        <h1 style={{color: "#D3D3D3"}}> lleumeria </h1>
         {/* Your main content goes here */}
       </div>
     </div>
