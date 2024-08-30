@@ -4,7 +4,9 @@
     left: 0;
     width: 50px;
     height: calc(100%);
-    background-color: #333;
+    background: linear-gradient(to top, blue, purple),
+    linear-gradient(to right, #5500ff, #00ff55);
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,5 +19,8 @@
   
     margin: 20px 0;
     cursor: pointer;
+    border-radius : 10px 10px 10px 10px;
+    height: 50px;
+    width: 50px;
   }
   

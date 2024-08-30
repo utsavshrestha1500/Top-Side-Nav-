@@ -9,7 +9,21 @@ function App() {
       <TopNavbar />
       <SideNavbar />
       <div className="content">
-        <h1 style={{color: "#D3D3D3"}}> lleumeria </h1>
+      <div class="container text-center py-5">
+        <h2 class="mb-4">Welcome to Zentura Agency Hub</h2>
+
+        <ul class="list-unstyled">
+            <li class="mb-3">
+                <p>Creativity</p>
+            </li>
+            <li class="mb-3">
+                <p>Timelessness</p>
+            </li>
+            <li class="mb-3">
+                <p>Collaborative Power</p>
+            </li>
+        </ul>
+    </div>
         {/* Your main content goes here */}
       </div>
     </div>
